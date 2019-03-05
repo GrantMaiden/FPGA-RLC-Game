@@ -1,0 +1,15 @@
+module mux5bit_e1 (in, x_out, y_out);
+	input logic [5:0] in;
+	output int x_out, y_out;
+	if(in == 5'b00000)
+		begin
+			x_out = 540;
+			y_out = 320;
+		end
+	else
+		begin
+			x_out = 200;
+			y_out = 200;
+		end
+endmodule
+		
