@@ -1,6 +1,6 @@
-ResistorCapacitorInductor Is a 2 player FPGA game programmed using a combination of SystemVerilog and C. 
+ResistorCapacitorInductor(RLC) is a 2 player FPGA game programmed using a combination of SystemVerilog and C. 
 
-The game is made in the likeness of shoots-an-ladders, but instead of being a person climbing and sliding, you play as an electron
+The game is made in the likeness of the classic board game shoots-and-ladders, but instead of being a person climbing and sliding, you play as an electron
 moving through a circuit. Inductors act as ladders, and capacitors act as slides.
 
 The game utilizes VGA for output, and has animations for board movement. 3D printed controllers are used as accessories to 
